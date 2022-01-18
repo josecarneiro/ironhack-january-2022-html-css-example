@@ -1,0 +1,181 @@
+<html>
+  <!-- Head Element contains page metadata -->
+  <head>
+    <style>
+      /* CSS DECLARATION */
+      p {
+        /* Color of text */
+        color: yellowgreen;
+        color: green;
+        color: #00ff00;
+        color: rgb(0, 255, 0);
+        color: hsl(150, 100%, 50%);
+        /* Style text */
+        font-style: italic;
+        font-style: normal;
+        font-weight: bold;
+        font-weight: normal;
+        font-weight: lighter;
+        font-family: sans-serif;
+        font-family: 'Futura';
+        /* Sizing */
+        width: 500px;
+        padding: 30px;
+        margin: 20px;
+      }
+      /*
+      Declaration syntax:
+      A {
+        B: C;
+        B: C;
+      }
+      A: CSS Selector
+      B: Property to style
+      C: Value given to property
+      */
+
+      /* Selects element with id underlined */
+      #underlined {
+        text-decoration: underline;
+      }
+
+      /* Selects element with class special-list-item */
+      .special-list-item {
+        font-weight: bold;
+        color: pink;
+      }
+
+      /*
+      Specificity "section p" is more specific than just "p"
+      */
+      section p {
+        color: orangered;
+      }
+    </style>
+  </head>
+  <!-- Body Element holds page content -->
+  <body>
+    <!-- Heading Tags -->
+    <!-- Inline style -->
+    <h1 style="color: red">Heading of size 1</h1>
+    <h2 style="color: blue; text-decoration: underline">Heading of size 2</h2>
+    <h3>Heading of size 3</h3>
+    <h4>Heading of size 4</h4>
+    <h5>Heading of size 5</h5>
+    <h6>Heading of size 6</h6>
+    <!-- Paragraph Tag -->
+    <p id="underlined">Paragraph of text</p>
+    <!-- Not allowed: two elements with the same id -->
+    <!-- <span id="underlined">Paragraph of text</span> -->
+    <!-- List tags -->
+    <!-- Unordered List tag -->
+    <ul style="color: orange">
+      <!-- List Item tag -->
+      <li style="color: limegreen">Eggs</li>
+      <li class="special-list-item">Milk</li>
+      <li>Cereal</li>
+    </ul>
+    <!-- Ordered List tag -->
+    <ol>
+      <li>Variables</li>
+      <li class="special-list-item">Values</li>
+      <li>Conditionals</li>
+      <li class="special-list-item">Iteration</li>
+    </ol>
+    <!-- Image tag -->
+    <!-- Self closing tags don't wrap around content -->
+    <!-- HTML tags can take attribute value pairs or empty attributes -->
+    <img
+      src="https://unsplash.com/assets/api/api-photo-grid@2x-3b92db4cdfc938c6dde2291ca1c78ab7ace98ef916a8dd08c00a6b006c0b631b.jpg"
+      width="500"
+      foo
+    />
+    <!-- Dividing content -->
+    <!-- Divider tag -->
+    <!-- Separate content into "boxes" -->
+    <div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. In, dolorem?
+      </p>
+      <p>
+        Modi, ipsam commodi quam dolorem at expedita pariatur aperiam molestiae.
+      </p>
+    </div>
+    <div>
+      <p>
+        Eius temporibus, pariatur quisquam inventore commodi maxime ab deleniti
+        sequi.
+      </p>
+      <p>
+        Autem sunt praesentium ea explicabo excepturi maxime aliquid magni.
+        Voluptate.
+      </p>
+      <p>
+        Tempora velit ab reiciendis ex dolorem fugiat architecto aliquam
+        repudiandae!
+      </p>
+    </div>
+    <!-- Other semantic tags to separate content -->
+    <article>
+      <header>
+        <h2>OMICRON surges accross Europe</h2>
+        <p>José Carneiro</p>
+      </header>
+      <section>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
+          tempora.
+        </p>
+        <h5>Hello World</h5>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
+          tempora.
+        </p>
+      </section>
+      <footer>
+        <p>For further information, go here.</p>
+      </footer>
+    </article>
+    <!-- Navigation divider -->
+    <nav></nav>
+    <!-- Main content wrapper in your website -->
+    <!-- There should be only 1 per page maximum -->
+    <nav></nav>
+    <main></main>
+    <footer></footer>
+
+    <!-- Text styling elements -->
+    <p><strong>Hello</strong> World</p>
+    <p><b>Hello</b> World</p>
+    <p><i>Hello</i> World</p>
+    <p><em>Hello</em> World</p>
+    <p><u>Hello</u> World</p>
+    <p><span>Hello</span> World</p>
+
+    <!-- Anchor element -->
+    <a href="https://google.com">Go to Google</a>
+
+    <!-- Form tags -->
+    <form>
+      <label>Name:</label>
+      <input />
+      <textarea></textarea>
+      <select>
+        <option>Lorem.</option>
+        <option>Porro?</option>
+        <option>Amet!</option>
+      </select>
+      <button></button>
+    </form>
+
+    <!-- Media Elements -->
+    <video
+      src="https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/1080/Big_Buck_Bunny_1080_10s_1MB.mp4"
+      width="500"
+      autoplay
+      muted
+      controls
+    ></video>
+    <audio src=""></audio>
+  </body>
+</html>

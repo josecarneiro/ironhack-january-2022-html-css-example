@@ -1,0 +1,69 @@
+/* CSS DECLARATION */
+p {
+  /* Color of text */
+  color: yellowgreen;
+  color: green;
+  color: #00ff00;
+  color: rgb(0, 255, 0);
+  color: hsl(150, 100%, 50%);
+  /* Style text */
+  font-style: italic;
+  font-style: normal;
+  font-weight: bold;
+  font-weight: normal;
+  font-weight: lighter;
+  font-family: sans-serif;
+  font-family: 'Futura';
+  /* Sizing */
+  width: 500px;
+  padding: 30px;
+  margin: 20px;
+  background-color: lightblue;
+  /* background-image: url('https://unsplash.com/assets/api/api-photo-grid@2x-3b92db4cdfc938c6dde2291ca1c78ab7ace98ef916a8dd08c00a6b006c0b631b.jpg'); */
+  /* background-image: url('/image.jpg'); */
+  background-image: url('image.jpg');
+}
+/*
+Declaration syntax:
+A {
+  B: C;
+  B: C;
+}
+A: CSS Selector
+B: Property to style
+C: Value given to property
+*/
+
+/* Selects element with id underlined */
+#underlined {
+  text-decoration: underline;
+}
+
+/* Selects element with class special-list-item */
+.special-list-item {
+  font-weight: bold;
+  color: pink;
+}
+
+/*
+Specificity "section p" is more specific than just "p"
+*/
+section p {
+  color: orangered;
+}
+
+.limited-paragraph {
+  width: 150px;
+  /* 0 margin vertically and auto margin horizontally */
+  margin: 0 auto;
+}
+
+h1 {
+  /* margin: 0 auto; */
+  width: 100px;
+  text-align: center;
+}
+
+strong {
+  margin: 0 auto;
+}
